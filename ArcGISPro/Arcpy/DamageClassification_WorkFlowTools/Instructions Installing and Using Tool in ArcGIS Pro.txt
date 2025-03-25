@@ -1,0 +1,66 @@
+Instructions: Installing and Using the GIS Tool in ArcGIS Pro
+
+
+Overview
+
+This toolbox is provided as an ArcGIS Pro toolbox (.atbx) and a Python script (.py). It has two functionalities:
+1) a python script tool athat allows users to extract 3 bands (RGB) from a raster, resample to a desired cell size, and apply NoData and 8-bit conversion. 
+2) A ModelBuilder Model that combines raster reformatting script above and polygon feature class creation for cases when you will be creating manually digitized polygon samples.
+
+Note: To function as expected the provided ModelBuilder Model requires user input for parameters including, desired output raster cell size, and changes in user folder paths and file names.
+
+
+Step 1: Download the Tool Files
+You should receive a .zip file containing:
+
+MyToolbox.atbx → The ArcGIS Pro toolbox
+extractBands_exportRaster.py → The Python script referenced by the tool
+README.txt → These instructions
+
+Make sure to extract the ZIP file before proceeding!
+
+Step 2: Place the Files in a Working Directory
+
+Copy the MyToolbox.atbx and ExtractBands.py files to a location on your computer.
+Recommended Location:
+C:\GIS_Tools\ExtractBands\
+Ensure that the .py script stays in the same folder as the toolbox to avoid errors.
+
+Step 3: Add the Toolbox to ArcGIS Pro
+
+Open ArcGIS Pro.
+Go to the Catalog Pane (View → Catalog Pane).
+Right-click "Toolboxes" and select "Add Toolbox".
+Browse to the location where you saved MyToolbox.atbx.
+Select the file and click OK.
+The toolbox is now available in your project!
+
+Step 4: Run the Tool
+
+In the Catalog Pane, expand the toolbox (MyToolbox.atbx).
+Double-click the tool (e.g., "Extract 3 Bands").
+Fill in the required parameters:
+Input Raster → Select a .tif raster file.
+Output Folder → Choose where the processed raster will be saved.
+Output Raster Name → Provide a name for the final raster (no extension needed).
+Click Run.
+
+The tool will extract the RGB bands, apply NoData where necessary, and convert the raster to 8-bit unsigned format.
+
+Step 5: Verify the Output
+
+The processed raster will be saved in the selected output folder as a .tif file.
+The new raster will automatically appear in your ArcGIS Pro map.
+The NoData areas will be correctly applied, preventing black borders.
+
+
+Troubleshooting
+Issue: Tool is Not Visible in ArcGIS Pro
+Solution: Make sure you added the toolbox correctly (Catalog Pane → Add Toolbox).
+
+Issue: Script Not Found
+Solution: Ensure extractBands_exportRaster.py is in the same folder as MyToolbox.atbx.
+
+Issue: Output Raster is Black
+Solution: The input raster may have incorrect NoData values. Make sure the input has valid pixel values.
+
