@@ -10,27 +10,26 @@ The tools focus on automating workflows, enhancing geospatial data preprocessing
 ## Folder Structure
 GIS Tools/
 
-├── ArcGISPro/
+### ├── ArcGISPro/
 
 │   ├── Arcpy/
 
 |           |── custom_arcpy_tools.py
 
+│   |       ├── TemplateProject/
+
+│   │       |    ├── TemplateProject.aprx
+
+│   │       |    ├── TemplateProject.gdb
+
 │   ├── DamageClassification_WorkFlowTools/
 
-│   │      ├── BuildingDamage.atbx
+### │   ├── DataValidation
+│   |      ├── 1Data/
+│   │      ├── combined_validation_issues.csv
+│   │      ├── DataFormatValidation_v2.ipynb
 
-│   │      ├── BuildingDamage_PreprocessingToolBox.zip
-
-│   │      ├── Instructions Installing and Using Tool in ArcGIS Pro.txt
-
-│   │      ├── extractBands_exportRaster.py
-
-│   │      
-
-│   ├── DataValidation
-
-│   ├── UAV
+### │   ├── UAV
 
 ├── README.md
 
