@@ -9,48 +9,60 @@ The tools focus on automating workflows, enhancing geospatial data preprocessing
 
 ## Folder Structure
 GIS Tools/
+
 ├── ArcGISPro/
+
 │   ├── Arcpy/
+
 |           |── custom_arcpy_tools.py
+
 │   ├── DamageClassification_WorkFlowTools/
+
 │   │      ├── BuildingDamage.atbx
+
 │   │      ├── BuildingDamage_PreprocessingToolBox.zip
+
 │   │      ├── Instructions Installing and Using Tool in ArcGIS Pro.txt
+
 │   │      ├── extractBands_exportRaster.py
+
 │   │      
+
 │   ├── DataValidation
+
 │   ├── UAV
+
 ├── README.md
 
 ## Features
 Building Damage Assessment:
 
-Tools for assessing and classifying building damage using spatial datasets.
+- Tools for assessing and classifying building damage using spatial datasets.
 
-Includes preprocessing workflows and advanced toolbox utilities.
+- Includes preprocessing workflows and advanced toolbox utilities.
 
 Raster Band Extraction:
 
-Script to extract specific bands from raster datasets and export as new raster layers.
+- Script to extract specific bands from raster datasets and export as new raster layers.
 
 Custom ArcPy Tools:
 
-Collection of functions and utilities to enhance geospatial workflows, including shapefile processing and conversions to geodatabases.
+- Collection of functions and utilities to enhance geospatial workflows, including shapefile processing and conversions to geodatabases.
 
 Detailed Instructions:
 
-Instructions Installing and Using Tool in ArcGIS Pro.txt guides users on installation and usage.
+- Instructions Installing and Using Tool in ArcGIS Pro.txt guides users on installation and usage.
 
 ## Requirements
 Software:
 
-ArcGIS Pro
+- ArcGIS Pro
 
-Python (ArcPy)
+- Python (ArcPy)
 
 Libraries:
 
-Python packages: arcpy, os, requests, zipfile, magic (if applicable)
+- Python packages: arcpy, os, requests, zipfile, magic (if applicable)
 
 Ensure ArcGIS Pro is properly installed and licensed.
 
@@ -63,7 +75,7 @@ cd GIS-Tools
 ```
 Install any required Python packages --use ArcGIS Pro's built-in Python environment or your custom environment
 
-## Usage
+## Example Custom Tool Usage: ArcGIS Pro Damage Classification tools
 - Load and configure the tools in ArcGIS Pro:
 
 - Unzip the toolbox files (BuildingDamage_PreprocessingToolBox.zip).
@@ -88,7 +100,7 @@ Review the comments and documentation within scripts for code-level guidance.
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or additional tools.
 
-##License
+## License
 This repository is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Contact
