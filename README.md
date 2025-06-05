@@ -34,23 +34,23 @@ GIS Tools/
 ├── README.md
 
 ## Features
-Building Damage Assessment:
+
+### Custom ArcPy Tools:
+
+- Collection of functions and utilities to enhance geospatial workflows, including shapefile processing and conversions to geodatabases.
+
+### Building Damage Assessment Workflow tools for Esri's DeepLearning Models:
 
 - Tools for assessing and classifying building damage using spatial datasets.
 
 - Includes preprocessing workflows and advanced toolbox utilities.
 
-Raster Band Extraction:
+- Raster Band Extraction:
 
-- Script to extract specific bands from raster datasets and export as new raster layers.
+    - Script to extract specific bands from raster datasets and export as new raster layers.
 
-Custom ArcPy Tools:
-
-- Collection of functions and utilities to enhance geospatial workflows, including shapefile processing and conversions to geodatabases.
-
-Detailed Instructions:
-
-- Instructions Installing and Using Tool in ArcGIS Pro.txt guides users on installation and usage.
+### Online Map Project Template
+- ArcGIS Pro Template Map project file with extent set to Scott County that includes a temporary geodatabase for QC in manage mode to track changes, custom pre-defined layouts for creating printable maps with dynamic text and other pre-loaded tools
 
 ## Requirements
 Software:
@@ -86,15 +86,12 @@ Install any required Python packages --use ArcGIS Pro's built-in Python environm
 Run the scripts within ArcGIS Pro’s Python window or an external Python IDE with ArcPy enabled.
 
 ## Instructions
-Refer to the following resources for detailed steps:
 
-Installing and Using Tools:
+- Building Damage Workflow Instructions Installing and Using Tool in ArcGIS Pro.txt provides detailed setup instructions.
 
-Instructions Installing and Using Tool in ArcGIS Pro.txt provides detailed setup instructions.
+- ArcPy function description review the comments and documentation within scripts for code-level guidance.
 
-## ArcPy Function Descriptions:
-
-Review the comments and documentation within scripts for code-level guidance.
+- Template Project File: download the template package (https://arcg.is/DHPrW1) and open on your local machine. Intended for workflow automation
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or additional tools.
