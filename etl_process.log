@@ -1,0 +1,21 @@
+2025-06-09 23:18:39,075 - INFO - Setting workspace to C:\Projects\GIS Tools\ArcGISPro\Arcpy\1Data\stagingGeodatabase.gdb
+2025-06-09 23:18:39,263 - INFO - Feature classes found AddressPoints
+2025-06-09 23:18:45,458 - INFO - Feature class loaded AddressPoints
+2025-06-09 23:18:45,483 - INFO - Extracting schema from geodatabase...
+2025-06-09 23:19:06,840 - INFO - Added missing column ProductionReady with default value  to input table
+2025-06-09 23:19:06,841 - INFO - python script located here c:\Projects\GIS Tools\ArcGISPro\Arcpy
+2025-06-09 23:19:06,841 - INFO - ETL process started...
+2025-06-09 23:19:06,845 - INFO - Setting workspace to C:\Projects\GIS Tools\ArcGISPro\Arcpy\1Data\stagingGeodatabase.gdb
+2025-06-09 23:19:06,871 - INFO - Feature classes found AddressPoints
+2025-06-09 23:19:06,896 - INFO - Feature class loaded AddressPoints
+2025-06-09 23:19:06,920 - INFO - Starting data validation and cleaning...
+2025-06-09 23:19:06,922 - WARNING - Found 9 rows with missing values.
+2025-06-09 23:19:06,923 - INFO - No duplicate rows found
+2025-06-09 23:19:06,925 - INFO - Validation issues saved to CSV.
+2025-06-09 23:19:07,227 - INFO - Loading CleanedData into geodatabase...
+2025-06-09 23:19:07,668 - INFO - CleanedData successfully loaded into geodatabase.
+2025-06-09 23:19:07,671 - INFO - Loading ValidationIssues into geodatabase...
+2025-06-09 23:19:07,906 - INFO - ValidationIssues successfully loaded into geodatabase.
+2025-06-09 23:19:07,909 - INFO - Loading InputAddressData into geodatabase...
+2025-06-09 23:19:08,143 - INFO - InputAddressData successfully loaded into geodatabase.
+2025-06-09 23:19:08,144 - INFO - ETL process completed successfully.
