@@ -8,6 +8,20 @@ This repository primarily contains a collection of GIS tools designed for use in
 The tools focus on automating workflows, enhancing geospatial data preprocessing, or performing very specific custom tasks like damage classification and raster band extraction.
 
 ### Example Tool: ArcPy Schema-Guided Data Validation for CSV Input
+
+[USER PROMPT 1](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/CSV_Input.png)
+
+[USER PROMPT 2](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/GDB_Selection.png)
+
+[USER PROMPT 3](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/FeatureClassSelection.png)
+
+[USER PROMPT 4](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/FieldMapping.png)
+[ARCGIS LOADED CSV OUTPUT](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/CleanedLoadedData.png)
+
+
+
+
+
 [ ArcPy Data Validation and Ingestion Demo (MP4)](https://github.com/estevezb/GIS-Tools/raw/main/VideoExamples/ArcGIS_Pro_DataIngestion_Demo1.mp4)
 
 ## Folder Structure
